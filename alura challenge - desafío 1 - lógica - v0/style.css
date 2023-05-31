@@ -1,0 +1,138 @@
+*{
+  background: #d8dfe8 ;
+  font-family: 'Inter';
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 150%;
+  
+   
+}
+
+.logo{
+padding-top: 10px;
+margin-left: 10px;
+width: 30%;
+}
+
+/* caja flexible */
+main{
+  display: flex; /*ubica la caja al lado */
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.textArea{
+  border: none;
+  color: #0a3871;
+  margin-top: 20px;
+  text-transform: lowercase; /*minuscula*/
+
+  
+}
+::placeholder{ color: #0a3871; }
+  .text-area:focus{
+    outline: none;
+  }
+
+.mensaje{
+  background: white;
+  /*background-image: url('img2.png'); /*falta imagen*/
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0a3871;
+  margin-left: 98px;
+  margin-top: 10px;
+  padding-left: 20px;
+  position: fixed;
+  padding-bottom: 120px;
+  font-weight: bold;
+  
+
+}
+
+.mensaje:focus{
+  outline: none;
+}
+
+.botones{
+  display: flex;
+  margin-top: 18px;
+
+}
+
+.btnEncriptar{
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+
+}
+
+.btnEncriptar:hover{
+  background: #0a3871;
+  color: #d8d8d8;
+  transform: scale(1);
+}
+
+
+.btnDesencriptar{
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+
+}
+
+.btnDesencriptar:hover{
+  background: #0a3871;
+  color: #d8d8d8;
+  transform: scale(1);
+}
+
+.copiar{
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 108px;
+  margin-top: 402px;
+  position: absolute;
+  width: 336px;
+
+}
+
+.copiar:hover{
+  background: #0a3871;
+  color: #d8d8d8;
+  transform: scale(1);
+}
+
+.informacion{
+  columns: #495057;
+  font-size: 18px;
+}
+
+footer{
+  text-align: center;
+  /*background: url(imagenes/imagenes/bg.jpg); /*cargando imagen*/
+  padding: 50px;
+
+}
+
+.copyright{
+  color:#0a3871;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+}
+

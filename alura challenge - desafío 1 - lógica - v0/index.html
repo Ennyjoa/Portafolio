@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- instalando font - letras -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+  
+  <title>Encriptador</title>
+</head>
+<body>
+  <header>
+    <img src="Logo7.png" alt="" alt="logo de alura" class="logo">
+  </header>
+  <main>
+    <section>
+
+      <textarea id="inputMensaje" class="textArea" cols="60" rows="10" placeholder="Ingrese el texto aqui : "  ></textarea> <!--Box1-->
+      <div>
+        <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+      </div>
+        <div class="botones">
+          <button id="btnEncriptar" class="btnEncriptar">Encriptar</button>
+          <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+        </div>
+
+      </section>
+    <section>
+      <textarea id="mensajeFinal" class="mensaje" cols="30" rows="10" ></textarea> <!-- box2 cuadro para ver el mensaje-->
+      <div>
+        <button id="btnCopiar" class="copiar" style = "position:fixed; left:775px; top:245px" >Copiar</button>
+        <img src="img2.png" alt="" alt="imagen de caja" class="muneco"  style = "position:fixed; left:935px; top:420px">
+      </div>
+    </section>    
+  </main>
+
+  
+    <footer> <!--Pie de pagina-->
+      <img src="logo3.png">
+      <a href="https://www.linkedin.com/in/johanna2792/"><img src="linkedin.png" width="30" height="30"></a> <!--linked-->
+      <a href="https://github.com/Ennyjoa"><img src="github.png" width="30" height="30"></a> <!--linked-->
+      <p class="copyright">&copy Copyright Encriptador 2023-2024 </p>
+      <!--simbolo de esta pag :https://old.unicode-table.com/es/00A9/-->
+    </footer>
+    
+
+</body>
+  <script src="script.js"></script>
+</html>
